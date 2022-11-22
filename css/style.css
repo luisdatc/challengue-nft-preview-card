@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  padding: 2.5em 2.5rem;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 20px;
+  width: 300px;
+}
+.card--imagen-ico {
+  position: absolute;
+  background-color: hsla(178deg, 100%, 50%, 0.562);
+  padding: 11rem;
+  opacity: 0;
+  width: 249px;
+  height: 250px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.card--imagen-main {
+  width: 100%;
+  border-radius: 8px;
+}
+.card--body {
+  padding: 2rem 0rem;
+}
+.card--tittle {
+  font-weight: 600;
+  font-size: 2rem;
+  color: hsl(0deg, 0%, 100%);
+  padding: 0 0 1.5rem 0;
+}
+.card--tittle:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+.card--text-sup {
+  font-weight: 300;
+  color: hsl(215deg, 51%, 70%);
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+.card--text-sub {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  border-bottom: 0.1px solid hsl(215deg, 51%, 70%);
+}
+.card--text-eth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card--text-eth p {
+  color: hsl(178deg, 100%, 50%);
+  padding: 0 0.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.card--text-clock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card--text-clock p {
+  color: hsl(215deg, 51%, 70%);
+  padding: 0 0.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.card--author {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+.card--author-avatar {
+  width: 15%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.card--author-name {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: hsl(215deg, 51%, 70%);
+}
+.card--author-name-1 {
+  color: hsl(0deg, 0%, 100%);
+}
+.card--author-name-1:hover {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 600;
+}
+
+.card--imagen:hover .card--imagen-ico {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
